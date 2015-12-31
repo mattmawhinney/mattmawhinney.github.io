@@ -6,6 +6,7 @@ $('#mc-form').ajaxChimp({
 
 function callbackFunction (resp) {
     if (resp.result === 'success') {
-        console.log(resp.msg)
+        console.log(resp.msg);
+       $('#email-alert').append(resp.msg);
     }
 }
