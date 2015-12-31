@@ -9,6 +9,6 @@ function callbackFunction (resp) {
         console.log(resp.msg);
        $('#email-alert').addClass("alert alert-danger").append(resp.msg);
     } else {
-      $('#email-alert').addClass("alert alert-danger").append("It looks like you've already signed up!");
+      $('#email-alert').addClass("alert alert-danger").append("It looks like you've already signed up. Hooray!");
     }
 }
