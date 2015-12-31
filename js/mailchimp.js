@@ -10,5 +10,5 @@ function callbackFunction (resp) {
        $('#email-alert').addClass("alert alert-danger").append(resp.msg);
     } else {
       $('#email-alert').addClass("alert alert-danger").append("It looks like you've already signed up!");
-
+    }
 }
