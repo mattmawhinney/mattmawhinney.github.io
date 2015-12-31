@@ -7,6 +7,6 @@ $('#mc-form').ajaxChimp({
 function callbackFunction (resp) {
     if (resp.result === 'success') {
         console.log(resp.msg);
-       $('#email-alert').append(resp.msg);
+       $('#email-alert').addClass("alert alert-danger")append(resp.msg);
     }
 }
