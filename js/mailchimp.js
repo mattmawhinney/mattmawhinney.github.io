@@ -5,7 +5,7 @@ $('#mc-form').ajaxChimp({
 
 
 function callbackFunction (resp) {
-    $('mc-form').hide();
+    $('#mc-form').hide();
     if (resp.result === 'success') {
         console.log(resp.msg);
        $('#email-alert').addClass("alert alert-danger").append(resp.msg);
