@@ -782,6 +782,17 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 1;
 }
 
+.logos{
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    width: 100%;
+    color: #AAAAAA;
+    z-index: 4;
+    text-align: left;
+    margin-top: 50px;
+}
+
 .footer{
     position: relative;
     bottom: 20px;
