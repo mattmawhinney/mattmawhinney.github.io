@@ -8,6 +8,14 @@ body{
     
 }
 
+.logos {
+    display: inline-block;
+    height:150px;
+    width:200px;
+    
+
+}
+
 #logos{
   color: white;
 
